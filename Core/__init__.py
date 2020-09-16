@@ -51,7 +51,7 @@ class RootApplication:
         try:
             return self.packages[package_name]
         except KeyError:
-            print(f"Package Error : [{package_name}] is not Registred")
+            print(f"Package Error : [{package_name}] is not Registered")
         except:
             print("Unexpected error :", sys.exc_info()[0])
 

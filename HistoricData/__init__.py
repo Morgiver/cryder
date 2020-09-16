@@ -7,7 +7,7 @@ class HistoricDataPackage(AbstractPackage):
 
         self.State = None
 
-    def instanciate(self):
+    def instantiate(self):
         super().instanciate()
         self.State = self.require('State')
 
